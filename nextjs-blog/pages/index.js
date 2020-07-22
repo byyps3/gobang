@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,10 +19,13 @@ export default function Home() {
         </p>
 
         <div className="grid">
+          <Link href="/gobang/gobang">
+          {/* <a href="https://nextjs.org/docs" className="card"> */}
           <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>五子棋 &rarr;</h3>
+            <p>This is a simple gobang model, Support for network play.</p>
           </a>
+          </Link>
 
           <a href="https://nextjs.org/learn" className="card">
             <h3>Learn &rarr;</h3>
