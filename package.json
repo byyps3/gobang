@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/byyps3/gobang/issues"
   },
-  "homepage": "https://github.com/byyps3/gobang#readme"
+  "homepage": "https://github.com/byyps3/gobang#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
